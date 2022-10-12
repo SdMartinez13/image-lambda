@@ -1,0 +1,17 @@
+[
+    {
+        "name": "image1",
+        "size": 21,
+        "type": "jpg"
+    },
+    {
+        "name": "image2",
+        "size": 300,
+        "type": "jpg"
+    },
+    {
+        "name": "image3",
+        "size": 50,
+        "type": "jpg"
+    }
+]

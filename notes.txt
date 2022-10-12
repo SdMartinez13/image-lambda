@@ -1,0 +1,47 @@
+onChange test results
+
+Test Event Name
+onChange
+
+Response
+{
+  "statusCode": 200,
+  "body": "\"image121jpg\""
+}
+
+Function Logs
+START RequestId: 8683439b-42db-4286-961e-ba20e6fae402 Version: $LATEST
+2022-10-12T04:17:09.081Z	8683439b-42db-4286-961e-ba20e6fae402	INFO	{
+  Records: [
+    {
+      eventVersion: '2.0',
+      eventSource: 'aws:s3',
+      awsRegion: 'us-east-1',
+      eventTime: '1970-01-01T00:00:00.000Z',
+      eventName: 'ObjectCreated:Put',
+      userIdentity: [Object],
+      requestParameters: [Object],
+      responseElements: [Object],
+      s3: [Object]
+    }
+  ]
+}
+2022-10-12T04:17:09.798Z	8683439b-42db-4286-961e-ba20e6fae402	INFO	images {
+  AcceptRanges: 'bytes',
+  LastModified: 2022-10-12T00:39:31.000Z,
+  ContentLength: 247,
+  ETag: '"bd56be68dfe4ceda6afb804799827b3c"',
+  ContentType: 'application/json',
+  Metadata: {},
+  Body: <Buffer 5b 0a 20 20 20 20 7b 0a 20 20 20 20 20 20 20 20 22 6e 61 6d 65 22 3a 20 22 69 6d 61 67 65 31 22 2c 0a 20 20 20 20 20 20 20 20 22 73 69 7a 65 22 3a 20 ... 197 more bytes>
+}
+2022-10-12T04:17:09.817Z	8683439b-42db-4286-961e-ba20e6fae402	INFO	parsed images { name: 'image1', size: 21, type: 'jpg' }
+2022-10-12T04:17:09.817Z	8683439b-42db-4286-961e-ba20e6fae402	INFO	result image121jpg
+END RequestId: 8683439b-42db-4286-961e-ba20e6fae402
+REPORT RequestId: 8683439b-42db-4286-961e-ba20e6fae402	Duration: 813.18 ms	Billed Duration: 814 ms	Memory Size: 128 MB	Max Memory Used: 83 MB	Init Duration: 466.24 ms
+
+Request ID
+8683439b-42db-4286-961e-ba20e6fae402
+
+
+
